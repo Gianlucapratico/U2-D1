@@ -18,13 +18,13 @@
     <header>
         <div>
             <img src="./assets/img/logo.svg" alt="logo del blog" width="250" height="60">
-            <p>Epicode - Il blog dei developers</p>
+            <p class="titolo-logo">Epicode - Il blog dei developers</p>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html" title="Home Page">Home</a></li>
-                <li><a href="articoli.html" title="Elenco degli articoli tecnici pubblicati">Articoli</a></li>
-                <li><a href="contatti.html" title="Candidati inviando un tuo cv">Job</a></li>
+                <li class="contatti"><a href="index.html" title="Home Page">Home</a></li>
+                <li class="contatti"><a href="articoli.html" title="Elenco degli articoli tecnici pubblicati">Articoli</a></li>
+                <li class="contatti"><a href="contatti.html" title="Candidati inviando un tuo cv">Job</a></li>
             </ul>
         </nav>
 
@@ -37,12 +37,15 @@
             <h1>Come creare un template per i post</h1>
             <p><i class="fas fa-pen-square"></i> di Mario Rossi - <span><i class="fas fa-clock"></i> pubblicato il
                     25-10-2020</span></p>
+                    <div class="immagine">
+                        <img class="download" src="./assets/img/download.png" alt="html5">" 
+                    </div>
 
             <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <strong>parti
                     comuni</strong> da applicare a tutte le pagine</p>
 
             <p>Le varie aree saranno quindi suddivise in:</p>
-            <ul>
+            <ul class="lista-ul">
                 <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
                 <li>Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo principale)</li>
                 <li>Contenuti di fine pagina comuni, da inserire nel tag <code>&lt;footer&gt;</code></li>
@@ -51,7 +54,7 @@
             <h2>Formattazione del codice</h2>
             <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <strong>selezionare con
                     i CSS</strong>. Perciò i passi saranno:</p>
-            <ol>
+            <ol class="lista-ol">
                 <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
                 <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
                 <li>Applicare gli stili CSS</li>

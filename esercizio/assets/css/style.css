@@ -178,3 +178,78 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+
+    
+.contatti{
+    font-size: 11px;
+    display: inline-block;
+}
+
+
+img.download{
+    height: 4rem;
+    width: auto;
+    border: solid blue
+}
+
+p.titolo-logo{
+    font-size: 10px;
+    display: flow-root
+    
+}
+
+div.immagine{
+    margin-top: -1rem;
+    max-width: min-content;
+    height: 46px;
+    border: solid red
+    
+}
+
+p{
+    display: inline-block;
+    font-size: 9px;
+}
+
+span{
+    font-size: 9px;
+}
+.lista-ul{
+    
+    font-size: 9px;
+}
+
+.lista-ol{
+    display: inline-block;
+    font-size: 9px;
+}
+
+table{
+    
+    font-size: 8px;
+    margin: auto;
+    
+}
+
+@media screen and (min-width: 576px) and (max-width:768px) {
+    main {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    #user_email {
+        width: 60%;
+    }
+
+    #blog {
+        font-size: 2rem;
+    }
+
+    address {
+        font-size: 2rem;
+    }
+}
